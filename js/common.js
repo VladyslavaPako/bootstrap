@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.parallax').parallax();
- 
+
   $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -17,6 +17,8 @@ $(document).ready(function(){
         }
     }
 })
+
+
 $('.popa-list').owlCarousel({
   loop:true,
   margin:10,
@@ -24,8 +26,8 @@ $('.popa-list').owlCarousel({
   responsive:{
       0:{
           items:1
-      },
-      600:{
+      },  
+      600:{ 
           items:3
       },
       1000:{
